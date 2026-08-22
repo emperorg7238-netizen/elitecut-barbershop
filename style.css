@@ -205,6 +205,40 @@ header {
     font-size: 20px;
 }
 
+/* Gallery */
+
+.gallery {
+    padding: 90px 8%;
+    background: #0d0d0d;
+}
+
+.gallery-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.gallery-item {
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #292929;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.06);
+}
+
 
 /* About */
 
