@@ -493,3 +493,15 @@ footer p {
         cursor: pointer;
     }
 }
+@media (max-width: 800px) {
+
+    .nav-links li:last-child a {
+        display: inline-block;
+        background: #d4af37;
+        color: #111;
+        padding: 10px 22px;
+        border-radius: 6px;
+        font-weight: 800;
+    }
+
+}
