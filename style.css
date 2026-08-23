@@ -473,3 +473,23 @@ footer p {
     }
 
 }
+@media (max-width: 800px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-toggle {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        color: #ffffff !important;
+        background: #0d0d0d !important;
+        border: 1px solid #d4af37 !important;
+        font-size: 24px;
+        width: 45px;
+        height: 40px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}
