@@ -505,3 +505,15 @@ footer p {
     }
 
 }
+@media (max-width: 800px) {
+
+    .nav-links li:last-child a {
+        background-color: #d4af37 !important;
+        color: #111111 !important;
+        padding: 10px 22px !important;
+        border-radius: 6px;
+        font-weight: 800;
+        display: inline-block;
+    }
+
+}
