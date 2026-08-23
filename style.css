@@ -517,3 +517,15 @@ footer p {
     }
 
 }
+@media (max-width: 800px) {
+
+    .nav-links .mobile-book a {
+        background: #d4af37 !important;
+        color: #111111 !important;
+        padding: 10px 24px !important;
+        border-radius: 6px;
+        font-weight: 800;
+        display: inline-block;
+    }
+
+}
